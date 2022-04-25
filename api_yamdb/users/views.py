@@ -1,7 +1,6 @@
 from django.conf import settings
 from django.core.mail import send_mail
 from django.shortcuts import get_object_or_404
-
 from requests.models import Response
 from rest_framework import exceptions, filters, status
 from rest_framework.decorators import api_view, renderer_classes

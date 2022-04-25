@@ -1,8 +1,8 @@
+from django.conf import settings
+from django.core.exceptions import ValidationError
 from django.core.validators import validate_email
 from django.core.validators import validate_slug as validate_username
-from django.core.exceptions import ValidationError
 
-from django.conf import settings
 from .models import User
 
 
