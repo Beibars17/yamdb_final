@@ -91,7 +91,7 @@ SECRET_KEY - секретный ключ
 ## Докуметация по API
 
 > Более подробное описание API можно получить по адресу:
-> http://localhost:8000/redoc/
+> http://51.250.12.19/redoc/
 
 ## Стек:
 
@@ -99,5 +99,8 @@ Python, Djando, DRF, djoser, Docker, docker-compose, Nginx, PostgreSQL
 
 
 ## yamdb_final
+
+> API сайта доступен по адресу:
+> http://51.250.12.19/api/v1/
 
 ![example workflow](https://github.com/Beibars17/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
